@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap" rel="stylesheet"> 
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div id="container">
+        <div id="input-display">
+            <h2>Metric/Imperial Unit Conversion</h2>
+            <div class="wrapper" id="input-wrapper">
+                <input type="text" id="input-number" autocomplete="off">
+            </div>
+            <div class="wrapper" id="btn-wrapper">
+                <button id="btn">Convert</button>
+            </div>
+        </div>
+        <div class="answer-box">
+            <h3>Length (Meter/Feet)</h3>
+            <p id="length-answers"></p>
+        </div>
+        <div class="answer-box" id="answer-box2">
+            <h3>Volume (Liters/Gallons)</h3>
+            <p id="volume-answers"></p>
+        </div>
+        <div class="answer-box" id="answer-box3">
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p id="mass-answers"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
